@@ -1,36 +1,36 @@
-# **Autoencoder con MLP aplicado a MNIST**  
-_Este proyecto implementa un autoencoder utilizando un perceptrón multicapa (MLP) con activaciones sigmoides. Se evalúa la calidad de la reconstrucción de las imágenes de los dígitos del conjunto de datos MNIST._ 
+# **Autoencoder with MLP Applied to MNIST**  
+_This project implements an autoencoder using a multilayer perceptron (MLP) with sigmoid activations. The quality of digit image reconstruction is evaluated using the MNIST dataset._
 
 ---
 
-## **Descripción**  
-Este proyecto desarrolla un autoencoder simple basado en un MLP con las siguientes características:  
-- Se utiliza el conjunto de datos MNIST (imágenes de dígitos escritos a mano).  
-- El autoencoder está diseñado con activaciones sigmoides para comprimir las imágenes en un espacio de características reducido y luego reconstruirlas.  
-- Se visualiza la calidad de las reconstrucciones para los dígitos del conjunto de prueba.  
+## **Description**  
+This project implements a basic autoencoder with the following features:  
+- Uses the MNIST dataset (handwritten digit images).  
+- The autoencoder is designed with sigmoid activations to compress the images into a reduced feature space and then reconstruct them.  
+- Visualizes the reconstruction quality for the digits in the test set.  
 
-El autoencoder permite explorar conceptos básicos de representación compacta y aprendizaje no supervisado en redes neuronales.
-
----
-
-## **Características Principales**  
-- Entrenamiento en el conjunto de datos MNIST.  
-- Uso de activaciones sigmoides para codificación y decodificación.  
-- Evaluación visual de las reconstrucciones.  
+The autoencoder is a simple way to explore compact representation and unsupervised learning in neural networks.
 
 ---
 
-## **Requisitos Previos**  
+## **Main Features**  
+- Training on the MNIST dataset.  
+- Sigmoid activations for encoding and decoding.  
+- Visual evaluation of the reconstructions.  
+
+---
+
+## **Prerequisites**  
 - Python >= 3.8.  
-- Librerías necesarias:  
+- Required libraries:  
   - `numpy`  
   - `scikit-learn`  
   - `matplotlib`  
 
 ---
 
-## **Instalación**  
-Pasos para configurar y ejecutar este proyecto:  
-1. Clona este repositorio:  
+## **Installation**  
+Steps to set up and run this project:  
+1. Clone this repository:  
    ```bash
    git clone https://github.com/angelmdezhdez/mlp-autoencoder.git
